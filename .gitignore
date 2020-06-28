@@ -1,0 +1,17 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Package Managers.
+/vendor
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+/.idea
+/deploy.sh
