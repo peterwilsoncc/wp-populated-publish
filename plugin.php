@@ -13,7 +13,7 @@
  * Description:       Ensure save hooks run after all data is populated.
  * Version:           0.1.0
  * Requires at least: 5.0
- * Requires PHP:      7.0
+ * Requires PHP:      7.2
  * Author:            Peter Wilson
  * Author URI:        https://peterwilson.cc
  * Text Domain:       wp-populated-publish
