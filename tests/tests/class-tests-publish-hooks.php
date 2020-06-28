@@ -56,8 +56,6 @@ class Tests_Publish_Hooks extends WP_UnitTestCase {
 	 * of times each action fires matches.
 	 *
 	 * Note: attachments are not tested.
-	 *
-	 * @return void
 	 */
 	function test_all_hooks_fire_for_wp_insert_post() : void {
 		$fired_actions_count = [];
