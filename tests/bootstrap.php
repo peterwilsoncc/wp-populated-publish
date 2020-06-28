@@ -1,14 +1,16 @@
-<?php
+<?php // phpcs:disable HM.Files.SideEffects.FoundWithSymbols
 /**
  * Bootstrap the plugin unit testing environment.
  *
  * @package WordPress
-*/
+ */
 
-// Support for:
-// 1. `WP_DEVELOP_DIR` environment variable
-// 2. Plugin installed inside of WordPress.org developer checkout
-// 3. Tests checked out to /tmp
+/**
+ * Support for:
+ * 1. `WP_DEVELOP_DIR` environment variable
+ * 2. Plugin installed inside of WordPress.org developer checkout
+ * 3. Tests checked out to /tmp
+ */
 if ( false !== getenv( 'WP_DEVELOP_DIR' ) ) {
 	$test_root = getenv( 'WP_DEVELOP_DIR' ) . '/tests/phpunit';
 } elseif ( file_exists( '../../../../tests/phpunit/includes/bootstrap.php' ) ) {

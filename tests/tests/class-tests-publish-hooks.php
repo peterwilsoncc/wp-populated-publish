@@ -1,4 +1,14 @@
 <?php
+/**
+ * WP Populated Publish Tests
+ *
+ * @package           wp-populated-publish
+ * @subpackage        tests
+ * @author            Peter Wilson
+ * @copyright         20202 Peter Wilson
+ * @license           GPL-2.0-or-later
+ */
+
 namespace PWCC\PopulatedPublish\Tests;
 
 use WP_UnitTestCase;
