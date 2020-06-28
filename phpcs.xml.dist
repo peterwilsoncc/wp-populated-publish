@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset>
+	<arg value="ps"/>
+
+	<!-- Use HM Coding Standards -->
+	<rule ref="HM">
+			<arg name="basepath" />
+	</rule>
+</ruleset>
