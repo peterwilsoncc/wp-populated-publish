@@ -4,6 +4,5 @@
 
 	<!-- Use HM Coding Standards -->
 	<rule ref="HM">
-			<arg name="basepath" />
 	</rule>
 </ruleset>
